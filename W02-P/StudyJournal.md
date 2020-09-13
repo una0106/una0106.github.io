@@ -1,6 +1,6 @@
 DataBase Programming week02
 ============================
-##새로 배운 내용
+## 새로 배운 내용
 -----------------------------
 [Server, PHP, MySQL]
 * Clinet : server에게 network를 통해 정보 요청(request)
@@ -23,7 +23,7 @@ mysqli_query([연결 객체],[쿼리]);
 오류가 나오면 오류 출력한다
 이때 mysqli_query의 반환값인 TRUE, FALSE를 활용한다
 
-##문제 및 해결과정
+## 문제 및 해결과정
 -----------------------------
 select.php에서 결과룰 출력할때 작성한 내용이 전체 출력되지 않았다
 .$row['title']에서 '.'는 앞의 string과 연결하는 역할을 하는데 '.'를 넣지 않아서 출력되지 않았다.
@@ -31,7 +31,7 @@ select.php에서 결과룰 출력할때 작성한 내용이 전체 출력되지 
 [참고자료]
 https://blog.naver.com/PostView.nhn?blogId=reviewer__&logNo=221413200890
 
-##회고
+## 회고
 -----------------------------
 clinet, server, php, database의 관계에 대해 자세히 알아갈 수 있는 시간이어서 좋았다. 또 1학년 때 배운 html문에 대해 다시 복습할 수 있는 시간이었다.
 저번학기에는 단순히 database설계만 했지만 설계한 데이터베이스를 web에 연결하는 경험을 통해 수업에 흥미를 갖게 되었다.
